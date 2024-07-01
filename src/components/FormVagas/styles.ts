@@ -22,4 +22,8 @@ export const BtnPesquisar = styled.button`
 export const Campo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
